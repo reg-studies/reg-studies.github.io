@@ -372,6 +372,48 @@ img {
   color: var(--first-color-alt);
 }
 
+/*==================== YOUTUBE ====================*/
+
+.h1-center{
+
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px; /* Imposta una larghezza maggiore per i quadrati */
+  height: 300px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.video-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-yt{
+  display: flex;
+  flex-direction: row;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 /*==================== FOOTER ====================*/
 .footer {
