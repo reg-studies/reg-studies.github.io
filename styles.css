@@ -777,96 +777,48 @@ img {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
-  }
-  .nav__menu {
-    padding: 2rem .25rem 4rem;
-  }
-  .nav__list {
-    column-gap: 0;
-  }
-  .home__content {
-    grid-template-columns: .25fr 3fr;
-  }
-  .home__blob {
-    width: 180px;
-  }
-  .skills__title {
-    font-size: var(--normal-font-size);
-  }
-  .qualification__data {
-    gap: .5rem;
-  }
-  .services__container {
-    grid-template-columns: repeat(3, 218px);
-    justify-content: center;
-  }
-  .services__content {
-    padding: 6rem 0 2rem 2.5rem;
-  }
-  .services__modal-content {
-    width: 450px;
-  }
-  .portfolio__img {
-    width: 320px;
-  }
-  .portfolio__content {
-    align-items: center;
-  }
-  .project {
-    text-align: initial;
-  }
-  .project__bg {
-    background: none;
-  }
-  .project__container {
-    background-color: var(--first-color-second);
-    border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
-    grid-template-columns: 1fr max-content;
-    column-gap: 3rem;
-  }
-  .project__data {
-    padding-top: .8rem;
-  }
-  .footer__container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .footer__bg {
-    padding: 3rem 0 3.5rem;
-  }
-  .footer__links {
-    flex-direction: row;
-    column-gap: 2rem;
-  }
-  .footer__socials {
-    justify-self: flex-end;
-  }
-  .footer__copy {
-    margin-top: 4.5rem;
-  }
-  .h1-center {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .button--flex {
-    margin-top: 20px;
-  }
-
-  /* Allineamento dei video-container */
-
-  .separator {
+@media screen and (max-width: 767px) {
+  /* Media query per i telefoni */
+  .container-yt {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .video-container {
-    width: calc(100% - 10px);
-    margin: 5px;
+    width: 400px; /* Imposta la larghezza desiderata */
+    height: 300px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  /* Resto delle media query precedenti */
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    .home__title {
+      padding-left: 20px;
+    }
+
+    .home__subtitle {
+      padding-left: 20px;
+    }
+
+    .button--flex {
+      margin-left: 20px;
+    }
+
+    .button--flex .button__icon {
+      margin-top: 10px;
+    }
+
+    .video-container-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .video-container {
+      width: calc(100% - 10px);
+      margin: 5px;
+    }
   }
 }
