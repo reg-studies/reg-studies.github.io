@@ -800,14 +800,16 @@ img {
   }
 
   /* Allineamento verticale dei video-container */
-  .video-container {
+  .video-container-wrapper {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 
   /* Rimpicciolimento dei video-container */
   .video-container {
     width: calc(100% - 10px);
+    height: calc(100% - 10px);
     margin: 5px;
   }
 }
