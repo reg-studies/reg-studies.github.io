@@ -808,6 +808,6 @@ img {
   /* Rimpicciolimento dei video-container */
   .video-container {
     width: calc(100% - 10px);
+    margin: 5px;
   }
 }
-
