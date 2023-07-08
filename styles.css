@@ -777,7 +777,7 @@ img {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -848,7 +848,15 @@ img {
   .footer__copy {
     margin-top: 4.5rem;
   }
-  
+  .h1-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .button--flex {
+    margin-top: 20px;
+  }
+
   /* Allineamento dei video-container */
 
   .separator {
