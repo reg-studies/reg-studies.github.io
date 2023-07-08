@@ -798,16 +798,16 @@ img {
   .button--flex .button__icon {
     margin-top: 10px;
   }
+}
 
-  /* Allineamento verticale dei video-container */
+@media only screen and (max-width: 767px) {
   .video-container-wrapper {
     flex-direction: column;
     align-items: center;
   }
-
-  /* Rimpicciolimento dei video-container */
   .video-container {
-    width: calc(100% - 10px);
-    margin: 5px;
+    width: 100%;
+    margin: 10px 0;
   }
 }
+
