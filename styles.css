@@ -776,3 +776,38 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Media Query per schermi dei telefoni */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  /* Spazio a sinistra per il titolo */
+  .home__title {
+    padding-left: 20px;
+  }
+
+  /* Spazio a sinistra per la sottotitolo */
+  .home__subtitle {
+    padding-left: 20px;
+  }
+
+  /* Spazio a sinistra per il bottone */
+  .button--flex {
+    margin-left: 20px;
+  }
+
+  /* Separazione tra "Go To My Channel" e "My Youtube Channel" */
+  .button--flex .button__icon {
+    margin-top: 10px;
+  }
+
+  /* Allineamento verticale dei video-container */
+  .video-container {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Rimpicciolimento dei video-container */
+  .video-container {
+    width: calc(100% - 10px);
+  }
+}
+
