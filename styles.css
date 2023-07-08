@@ -783,6 +783,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px; /* Aggiunta della margine superiore */
   }
 
   .video-container {
@@ -805,6 +806,7 @@ img {
 
     .button--flex {
       margin-left: 20px;
+      margin-bottom: 20px; /* Aumento dello spazio dal bottone */
     }
 
     .button--flex .button__icon {
