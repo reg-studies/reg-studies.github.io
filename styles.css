@@ -794,8 +794,7 @@ img {
     overflow: hidden;
   }
 
-  /* Resto delle media query precedenti */
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (min-width: 320px) and (max-width: 844px) {
     .home__title {
       padding-left: 20px;
     }
