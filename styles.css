@@ -783,18 +783,23 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px; /* Aggiunta della margine superiore */
   }
 
   .video-container {
-    width: 400px; /* Imposta la larghezza desiderata */
+    width: 100%;
     height: 300px;
     background-color: #f1f1f1;
     margin: 10px;
     overflow: hidden;
   }
 
-  @media screen and (min-width: 320px) and (max-width: 844px) {
+  /* Aggiungi la seguente regola per separare i video-container */
+  .video-container + .video-container {
+    margin-top: 20px;
+  }
+
+  /* Resto delle media query precedenti */
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     .home__title {
       padding-left: 20px;
     }
@@ -805,7 +810,7 @@ img {
 
     .button--flex {
       margin-left: 20px;
-      margin-bottom: 20px; /* Aumento dello spazio dal bottone */
+      margin-bottom: 20px;
     }
 
     .button--flex .button__icon {
