@@ -803,17 +803,17 @@ img {
 
   /* Posiziona il testo "My YouTube Channel" nello spazio tra il bottone e i container video */
   .h1-center {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: large;
+    margin-bottom: 10px;
     text-align: center;
-    margin-top: 50pxx; /* Aggiorna il margine superiore a 0 */
+    margin-top: 50px; /* Aggiorna il margine superiore a 0 */
   }
 
   /* Resto delle media query precedenti */
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .home__title {
       padding-left: 20px;
-      font-size: medium;
+      font-size: large;
     }
 
     .home__subtitle {
