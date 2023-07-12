@@ -572,6 +572,16 @@ img {
   .testimonial__data, .testimonial__description {
     text-align: center;
   }
+  .h1-center {
+    font-size: large;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 50px; /* Aggiorna il margine superiore a 0 */
+  }
+  .home__title {
+    padding-left: 20px;
+    font-size: large;
+  }
 }
 
 /* For medium devices */
