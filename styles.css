@@ -389,7 +389,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 400px; /* Imposta una larghezza maggiore per i quadrati */
+  width: 500px; /* Imposta una larghezza maggiore per i quadrati */
   height: 300px;
   background-color: #f1f1f1;
   margin: 10px;
