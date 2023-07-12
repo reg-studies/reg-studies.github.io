@@ -804,7 +804,7 @@ img {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    margin-top: 50px; /* Aggiorna il margine superiore a 0 */
+    margin-top: 50pxx; /* Aggiorna il margine superiore a 0 */
   }
 
   /* Resto delle media query precedenti */
