@@ -777,6 +777,33 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+  .home__title {
+    padding-left: 20px;
+    font-size: large;
+  }
+
+  .home__subtitle {
+    padding-left: 20px;
+  }
+
+  .button--flex {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .button--flex .button__icon {
+    margin-top: 10px;
+  }
+
+  .video-container-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-container {
+    width: calc(100% - 10px);
+    margin: 5px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -837,6 +864,12 @@ img {
     .video-container {
       width: calc(100% - 10px);
       margin: 5px;
+    }
+    .h1-center {
+      font-size: large;
+      margin-bottom: 10px;
+      text-align: center;
+      margin-top: 50px; /* Aggiorna il margine superiore a 0 */
     }
   }
 }
