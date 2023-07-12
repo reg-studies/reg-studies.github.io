@@ -377,11 +377,12 @@ img {
 .h1-center{
 
   font-size: 24px;
-  margin-bottom: 20px;
   position: absolute;
-  top: 80%;
+  bottom: 5px;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
 
 .video-container {
@@ -393,6 +394,7 @@ img {
   background-color: #f1f1f1;
   margin: 10px;
   overflow: hidden;
+  margin-bottom: 300px;
 }
 
 .video-container-wrapper {
@@ -811,6 +813,7 @@ img {
   @media screen and (min-width: 320px) and (max-width: 767px) {
     .home__title {
       padding-left: 20px;
+      font-size: medium;
     }
 
     .home__subtitle {
